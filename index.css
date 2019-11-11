@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: Poppins;
   text-align: center;
@@ -9,4 +13,13 @@ body {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+.card {
+  text-align: left;
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
 }
