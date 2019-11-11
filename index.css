@@ -17,6 +17,7 @@ body {
   font-family: Poppins;
   text-align: center;
   box-sizing: border-box;
+  background-color: #FAFAFA;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h1 {
 }
 
 h2 {
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -46,9 +48,11 @@ p {
   text-align: left;
   width: 300px;
   height: 200px;
-  border: 1px solid black;
+  border-radius: 7px;
+  margin: 10px;
+  filter: drop-shadow(0mm 4mm 4mm rgb(221, 221, 221));
   padding: 10px;
-  
+  background-color: #ffff;
 }
 
 .icon {
