@@ -13,6 +13,13 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --featureRed: hsl(0, 78%, 62%);
+  --featureCyan: hsl(180, 62%, 55%);
+  --featureOrange: hsl(34, 97%, 64%);
+  --featureBlue: hsl(212, 86%, 64%);
+}
+
 body {
   font-family: Poppins;
   text-align: center;
@@ -53,6 +60,26 @@ p {
   filter: drop-shadow(0mm 4mm 4mm rgb(221, 221, 221));
   padding: 10px;
   background-color: #ffff;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.teambldr {
+  border-top: 5px solid var(--featureRed);
+}
+
+.sprvsr {
+  border-top: 5px solid var(--featureCyan);
+}
+
+.karma {
+  border-top: 5px solid var(--featureOrange);
+}
+
+.calc {
+  border-top: 5px solid var(--featureBlue);
 }
 
 .icon {
