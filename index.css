@@ -71,8 +71,10 @@ p {
   border-radius: 7px;
   margin: 10px;
   filter: drop-shadow(0mm 4mm 4mm rgb(221, 221, 221));
-  padding: 10px;
+  padding: 20px;
   background-color: #ffff;
+  display: flex;
+  flex-direction: column;
 }
 
 h4 {
@@ -98,6 +100,7 @@ h4 {
 .icon {
   height: 5.5rem;
   width: 5.5rem;
+  align-self: flex-end;
 }
 
 .attribution { 
