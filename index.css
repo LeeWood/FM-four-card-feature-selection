@@ -1,3 +1,8 @@
+/*Text Margin Reset*/
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
 /*Global CSS*/
 
 html {
@@ -13,11 +18,14 @@ html {
   box-sizing: inherit;
 }
 
+/*Color Variables*/
 :root {
   --featureRed: hsl(0, 78%, 62%);
   --featureCyan: hsl(180, 62%, 55%);
   --featureOrange: hsl(34, 97%, 64%);
   --featureBlue: hsl(212, 86%, 64%);
+  --grayBlue: hsl(229, 6%, 66%);
+  --darkBlue: hsl(234, 12%, 34%);
 }
 
 body {
@@ -27,33 +35,46 @@ body {
   background-color: #FAFAFA;
 }
 
+header {
+  width: 525px;
+  margin: 0 auto;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 200;
+  color: var(--grayBlue)
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
+  color:var(--darkBlue);
+  margin-bottom:10px;
 }
 
 h3 {
   font-weight: 400;
-  color: hsl(229, 6%, 66%);
+  color: var(--grayBlue);
+  font-size: 1.5rem;
 }
 
 h4 {
   font-weight: 600;
+  color: var(--darkBlue)
 }
 
 p {
   font-weight: 400;
-  color: hsl(229, 6%, 66%);
+  color: var(--grayBlue);
+  font-size: 1.25rem;
 }
 
-.cards {
+.card-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .left-cards {
@@ -71,10 +92,11 @@ p {
   border-radius: 7px;
   margin: 10px;
   filter: drop-shadow(0mm 2mm 1mm rgb(221, 221, 221));
-  padding: 0px 20px;
+  padding: 15px;
   background-color: #ffff;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 h4 {
@@ -102,6 +124,7 @@ h4 {
   height: 5.5rem;
   width: 5.5rem;
   align-self: flex-end;
+  margin-top: 30px;
 }
 
 .attribution { 
