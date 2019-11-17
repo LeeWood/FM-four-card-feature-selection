@@ -70,8 +70,8 @@ p {
   height: 200px;
   border-radius: 7px;
   margin: 10px;
-  filter: drop-shadow(0mm 4mm 4mm rgb(221, 221, 221));
-  padding: 20px;
+  filter: drop-shadow(0mm 2mm 1mm rgb(221, 221, 221));
+  padding: 0px 20px;
   background-color: #ffff;
   display: flex;
   flex-direction: column;
@@ -91,6 +91,7 @@ h4 {
 
 .karma {
   border-top: 5px solid var(--featureOrange);
+  margin-top: 20px;
 }
 
 .calc {
